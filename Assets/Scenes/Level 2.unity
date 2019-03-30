@@ -318,7 +318,7 @@ PrefabInstance:
     - target: {fileID: 1090449489307697907, guid: d5bcb498709ba474c8f3864cc57c747f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.097
+      value: 1.079
       objectReference: {fileID: 0}
     - target: {fileID: 1090449489307697907, guid: d5bcb498709ba474c8f3864cc57c747f,
         type: 3}
@@ -367,9 +367,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1090449489307697906, guid: d5bcb498709ba474c8f3864cc57c747f,
         type: 3}
+      propertyPath: ballSounds.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090449489307697906, guid: d5bcb498709ba474c8f3864cc57c747f,
+        type: 3}
       propertyPath: paddle1
       value: 
       objectReference: {fileID: 21497126}
+    - target: {fileID: 1090449489307697906, guid: d5bcb498709ba474c8f3864cc57c747f,
+        type: 3}
+      propertyPath: ballSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: ee35ec93459804f41b6ff820ada6595c, type: 3}
+    - target: {fileID: 1090449489307697906, guid: d5bcb498709ba474c8f3864cc57c747f,
+        type: 3}
+      propertyPath: ballSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 49c0fce15360f3548a725901411cf69a, type: 3}
+    - target: {fileID: 1090449489307697906, guid: d5bcb498709ba474c8f3864cc57c747f,
+        type: 3}
+      propertyPath: ballSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 22091051f54468d4584ea81c657ef0ba, type: 3}
+    - target: {fileID: 1090449489307697906, guid: d5bcb498709ba474c8f3864cc57c747f,
+        type: 3}
+      propertyPath: ballSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: c1f61b9b77067144cbdb6fcdcafa6e3a, type: 3}
+    - target: {fileID: 1090449489307697906, guid: d5bcb498709ba474c8f3864cc57c747f,
+        type: 3}
+      propertyPath: ballSounds.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 38cbae97373955a4aa219af4d9d387ad, type: 3}
+    - target: {fileID: 730692714, guid: d5bcb498709ba474c8f3864cc57c747f, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5bcb498709ba474c8f3864cc57c747f, type: 3}
 --- !u!1001 &350547847
